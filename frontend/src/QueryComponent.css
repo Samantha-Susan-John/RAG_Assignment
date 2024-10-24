@@ -1,0 +1,74 @@
+.chat-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 800px; /* Increased the width */
+    width: 100%; /* Ensure it uses the full available width */
+    margin: 20px auto; /* Keep it centered */
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    box-sizing: border-box; /* Include padding/border in element’s width */
+}
+
+.chat-box {
+    flex-grow: 1;
+    overflow-y: auto;
+    max-height: 500px; /* Increased height for more space */
+    margin-bottom: 10px;
+}
+
+.chat-message {
+    margin-bottom: 10px;
+}
+
+.user-query {
+    font-weight: bold;
+}
+
+.bot-response {
+    margin-left: 20px; /* Indent the bot's response */
+}
+
+input[type="text"] {
+    padding: 15px; /* Increased padding for better UX */
+    width: 100%; /* Full width input */
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px; /* Added margin below input */
+    box-sizing: border-box; /* Include padding/border in the total width */
+}
+
+button {
+    padding: 15px; /* Increased padding for a bigger button */
+    border-radius: 5px;
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white;
+    border: none;
+    cursor: pointer; /* Added cursor pointer for better UX */
+    width: 100%; /* Button takes full width */
+    box-sizing: border-box; /* Include padding/border in the total width */
+}
+
+.context-button {
+    margin-top: 15px;
+    background-color: #28a745; /* Bootstrap success color */
+    width: 100%;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.formatted-response {
+    margin-top: 20px;
+    padding: 15px;
+    background-color: #f1f1f1;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.formatted-response h3 {
+    margin-top: 0;
+}
