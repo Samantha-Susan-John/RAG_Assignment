@@ -1,0 +1,35 @@
+# Virtual Environment - must be at the top
+.rag/
+.rag/**
+venv/
+ENV/
+.env/
+
+# OS files
+.DS_Store
+**/.DS_Store
+
+# Large files and data
+data/
+data/faiss_index.bin
+data/embeddings.pt
+*.bin
+*.pt
+*.pth
+*.pdf
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.class
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Git
+.gitattributes
+.gitignore.save
+RAG_Assignment.git/
