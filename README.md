@@ -4,7 +4,7 @@
 
 
 ##### Dataset Used: 
-NCERT PDF text : Used text books for all Science subjects (Physics, Chemistry, Biology) from grade 10 to 12. 
+NCERT PDF text : Used NCERT text books for all Science subjects (Physics, Chemistry, Biology) from grade 10 to 12. 
 
 ##### Vector Database Used:
 **FAISS** (Facebook AI Similarity Search) for fast similarity search to retrieve most relevant chunks based on cosine similarity.
