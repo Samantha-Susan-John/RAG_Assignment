@@ -50,7 +50,6 @@ FastAPI endpoint at `'/query'`.
 - Provides a simple query interface to interact with the LLM
 - Retrieved Context button provided to display the top retrieved chunks (provided as context) optionally
 
-#### RAG System Architecture:
 ---
 #### Results:
 
